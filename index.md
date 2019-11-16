@@ -4,13 +4,6 @@ author_profile: true
 ---
 
 
-# This muh shit
+# Coming Soon.
 
-asdfhlasjd 
-
-faslkjsfdl; 
-
-## Wubba!
-
-
-Wuhwuh Wooie.
+![Under Construction](https://st.depositphotos.com/1004077/3606/v/950/depositphotos_36068541-stock-illustration-website-under-construction-sign.jpg "Remember these?")
