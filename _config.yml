@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : "Making the world a better place."
 name                     : "Neil Murphy"
 description              : "My professional website."
-url                      : https://wnmurphy.com
+url                      : "https://wnmurphy.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "wnmurphy/wnmurphy.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "Neil Murphy"
   avatar           : "/assets/images/avatar-crop.jpg"
-  bio              : "Professional figure-outer. Developing infrastructure in the cloud. Striving to write clean, consistent, maintainable code with no surprises. Rope dart and fire spinning enthusiast. Collector of jazz on vinyl."
+  bio              : "Professional figure-outer. Developing infrastructure in the cloud. Rope dart and fire spinning enthusiast. Collector of jazz on vinyl."
   location         : "San Francisco Bay Area"
   email            :
   links:
