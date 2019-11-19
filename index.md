@@ -1,9 +1,8 @@
 ---
 layout: single
 author_profile: true
+title: This muh page
 ---
-
-# This muh page
 
 Welcome. I write the codes real good like. Hire me, cuz.
 
