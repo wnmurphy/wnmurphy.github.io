@@ -2,9 +2,8 @@
 layout: single
 author_profile: true
 permalink: /about/
+title: About Me
 ---
-
-# About Me
 
 Hi. I'm Neil. I'm a senior software engineer with 3+ years of experience; I started full stack, but now specialize in backend tech and cloud infrastructure. I live in the San Francisco Bay Area.
 
