@@ -1,14 +1,13 @@
 ---
 layout: single
 author_profile: true
-title: This muh page
 ---
 
-Welcome. I write the codes real good like. Hire me, cuz.
+Welcome. I write the codes real good like.
 
 ```python
 def welcome():
-  return "hi mom"
+  return "hire me"
 ```
 
 ## My Philosophy of Software Development
@@ -17,13 +16,13 @@ def welcome():
 - I keep code [SOLID](https://github.com/ryanmcdermott/clean-code-javascript#solid) and [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 - I strive to minimize cognitive load during context switching by using intuitive variable names and clear comments.
 - I have a dual background in technical writing; I actually enjoy crafting well-written documentation.
-- I take code reviews seriously.
+- I take code quality seriously and dedicate time to code reviews.
 - I check my ego at the door.
 - I love my work.
 
 I like OSX in dark mode, [Sublime Text 3](https://www.sublimetext.com/3), a modified [Glowfish theme](https://github.com/czettnersandor/st3-glowfish-theme) for that nice vintage green-on-black, and [Source Code Pro Extra Light](https://github.com/adobe-fonts/source-code-pro) for a font that's easy on the eyes.
 
-I love the feeling of closing browser tabs _en masse_ when I've wrapped up a project.
+I love the feeling of closing browser tabs _en masse_ after a PR is merged.
 
 
 ## Cool Stuff I've Done
@@ -35,7 +34,7 @@ I love the feeling of closing browser tabs _en masse_ when I've wrapped up a pro
 
 ## Industry Experience
 
-I have experience in these spaces:
+I've worked in these these spaces:
 
 - Event-driven, serverless architecture.
 - Internal tooling.
@@ -47,12 +46,13 @@ I have experience in these spaces:
 
 ## Technology
 
-I have experience with the following:
+I've worked with the following tech:
 
 | Category | Tech | Level |
 | ------ | ------ | ------ |
 | *Languages* | | |
 | | Python 3 | Strong |
+| | JavaScript | Strong |
 | | node.js | Strong |
 | | Ruby | Familiar |
 | | Java | Rusty |
