@@ -22,7 +22,7 @@ Owned, developed, maintained, and provided troubleshooting and support for mock 
 
 Built a test suite for our manufacturing facility in Hayward.
 
-Overhauled our user configuration logic. Created new API endpoints, DynamoDB tables and a lambda to handle API requests and validation. Wrote database backfill functions to migrate old data structures to new ones in production. Implemented caching on lambda initialization to drop global resource lookups from 1500ms to 500ms.
+Overhauled our user configuration logic. Created new API endpoints, DynamoDB tables and a lambda to handle API requests and validation. Wrote database backfill functions to migrate old data structures to new ones in production. Implemented caching on lambda initialization to drop global resource lookup time from 1500ms to 500ms.
 
 Implemented Python command-line tools for listening to DynamoDB stream for debugging and uploading files to S3 from local machine using Boto3 SDK.
 
