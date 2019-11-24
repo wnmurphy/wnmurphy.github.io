@@ -1,6 +1,10 @@
 # main links
 main:
+  - title: "Home"
+    url: /
   - title: "About Me"
     url: /about/
   - title: "Current Resume"
-    url: /assets/pdf/neil_murphy_resume_10_2019.pdf
+    url: /resume/
+  - title: "Blog"
+    url: https://toolongdidntread.net/
