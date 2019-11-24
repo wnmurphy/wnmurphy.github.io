@@ -30,11 +30,15 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
   background-color: $form-background-color;
 }
 
+// One-offs
+
+// Fixing alignment for location, which is different from contact points (GitHub, etc.)
 #main > div > div > div.author__urls-wrapper > ul > li:nth-child(1) {
   margin-left: -2px;
   margin-bottom: 6px;
 }
 
+// Color-coding the skill level in the technology table.
 #main > article > div > section > table > tbody > * > td:nth-child(3) {
   color: $header-color;
 }

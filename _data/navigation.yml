@@ -1,6 +1,6 @@
 # main links
 main:
   - title: "About Me"
-    url: https://wnmurphy.com/about/
+    url: /about/
   - title: "Current Resume"
     url: /assets/pdf/neil_murphy_resume_10_2019.pdf
