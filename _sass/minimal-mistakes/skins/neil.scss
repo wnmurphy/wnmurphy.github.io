@@ -42,6 +42,36 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 #main > article > div > section > table > tbody > * > td:nth-child(3) {
   color: $header-color;
 }
+
+// Custom home layout loading posts
+.nested-post:not(:first-of-type) {
+  margin-top: 160px;
+}
+
+.page__meta {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.nested-post {
+  border-bottom: 1px solid mix(#000, $border-color, 25%);
+  margin-bottom: 120px;
+  h1 > a {
+    color: $header-color;
+    text-decoration: none;
+  }
+}
+
+.back-to-top {
+  color: white;
+}
+
+div.author__bio {
+  a {
+    color: $link-color;
+  }
+}
+
 // #6ea240
 // #f7b83d
 // #3C4E2DFF
