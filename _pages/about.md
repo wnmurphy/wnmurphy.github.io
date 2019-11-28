@@ -48,7 +48,7 @@ Studied my tail off to get into a grueling software engineering program which ha
 
 ### <i class="fas fa-satellite"></i> [Space Systems Loral](http://sslmda.com/)
 
-Wrote electrical assembly and test procedures for 18 commercial communication satellites, currently in orbit.
+Wrote electrical assembly and test procedures for 18 commercial communication satellites currently in orbit.
 
 ### <i class="fas fa-coffee"></i> Personal
 
@@ -85,9 +85,9 @@ I love my work.
 ## Bonus Skills
 
 I have additional backgrounds in:
-- technical writing. I actually enjoy crafting well-written documentation and understand how to convey technical concepts.
-- training. I enjoy explaining concepts and teaching others.
-- customer success. I enjoy helping other people achieve their technical goals.
+- **technical writing**. Most engineers hate writing docs. I actually enjoy crafting well-written documentation and understand how to convey technical concepts.
+- **training**. I enjoy explaining concepts and teaching others.
+- **customer success**. I enjoy helping other people achieve their technical goals.
 
 ## Miscellaneous
 
@@ -95,7 +95,9 @@ I like OSX in dark mode, [Sublime Text 3](https://www.sublimetext.com/3), a modi
 
 I love the feeling of closing browser tabs _en masse_ after a PR is merged.
 
-I can't bring myself to watch HBO's _Silicon Valley_, because it's way too real.
+I really like markdown.
+
+I can't watch HBO's _Silicon Valley_. It's way too real.
 
 ## Technology
 
