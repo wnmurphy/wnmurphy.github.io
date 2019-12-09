@@ -2,6 +2,7 @@
 title: SOLID Principles Cheat Sheet
 date: 2019-11-28T11:19:22-08:00
 layout: single
+permalink: /solid-principles-cheat-sheet/
 category: 'programming'
 tags: ['best practices']
 ---
