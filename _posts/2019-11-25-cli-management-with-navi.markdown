@@ -2,6 +2,7 @@
 title: CLI Management with Navi
 date: 2019-11-25T12:24:41-08:00
 layout: single
+premalink: /cli-management-with-navi/
 category: 'tools'
 tags: ['cli']
 ---
