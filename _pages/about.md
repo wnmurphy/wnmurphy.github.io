@@ -12,7 +12,7 @@ title: About Me
   const startDate = new Date("2016-01-01");
   const startYear = startDate.getYear();
   const monthsProgramming = (((currentYear - startYear) * 12) - (12 - currentMonth));
-  const yearsProgramming = monthsProgramming/12;
+  const yearsProgramming = monthsProgramming / 12;
   const roundedYearsProgramming = yearsProgramming.toFixed(2);
 </script>
 
@@ -59,11 +59,11 @@ Wrote the stock trading tool for volume spread analysis that I always wished I h
 I've worked in these spaces:
 
 - Event-driven, serverless architecture.
-- Internal tooling.
-- IoT prescription drugs.
-- FDA regulatory compliance.
-- HIPAA compliance.
 - Medical devices and pharmaceuticals.
+- FDA regulatory compliance.
+- IoT prescription drugs.
+- Internal tooling.
+- HIPAA compliance.
 - Aerospace.
 
 ## My Philosophy of Software Development
@@ -109,8 +109,8 @@ I've worked with the following tech:
 | | Python 3 | Strong |
 | | JavaScript | Strong |
 | | node.js | Strong |
-| | Ruby | Familiar |
-| | Java | Rusty |
+| | Java | Familiar |
+| | Ruby | Rusty |
 | | Go | Rusty |
 | *Amazon Web Services* | | |
 | | Cloudwatch | Strong |
@@ -121,9 +121,15 @@ I've worked with the following tech:
 | | S3 | Strong |
 | | RDS/Aurora | Familiar |
 | | Secrets Manager | Familiar |
+| *Other Infrastructure* | | |
+| | Apache Kafka | Familiar |
+| | Apache Spark | Familiar |
+| | Vert.x | Familiar |
+| | GraphQL | Familiar |
 | *Databases & ORMs* | | |
 | | MySQL | Familiar |
 | | Postgres | Familiar |
+| | Cassandra | Familiar |
 | | MongoDB | Familiar |
 | | Redis | Familiar |
 | | Sequelize ORM | Familiar |
@@ -136,6 +142,8 @@ I've worked with the following tech:
 | | nose2 | Strong |
 | | Sinon | Familiar |
 | | PhantomJS | Familiar |
+| | JUnit | Familiar |
+| | Mockito | Familiar |
 | *Front End* | | |
 | | AngularJS | Familiar |
 | | React.js | Familiar |
@@ -147,3 +155,4 @@ I've worked with the following tech:
 | | Confluence | Strong |
 | | BitBucket | Strong |
 | | *NIX | Strong |
+| | Maven | Familiar |
