@@ -7,8 +7,7 @@ title                    : "Neil Murphy, Senior Software Engineer"
 title_separator          : "-"
 subtitle                 : "Making the world a better place."
 name                     : "Neil Murphy"
-# description              : "For all of your cloud infrastructure needs."
-description              : "Adventures in developing cloud infrastructure."
+description              : "Adventuring in the cloud."
 url                      : "https://wnmurphy.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "wnmurphy/wnmurphy.github.io"
@@ -53,9 +52,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : UA-100711724-1
     anonymize_ip         : # true, false (default)
 
 
@@ -63,7 +62,7 @@ analytics:
 author:
   name             : "Neil Murphy"
   avatar           : "/assets/images/avatar-crop.jpg"
-  bio              : "Professional figure-outer. Developing infrastructure in the cloud. [Rope dart](https://www.youtube.com/watch?v=rhdTUzapvL0) and [fire spinning](https://www.youtube.com/watch?v=mgFrJNIZt7k) enthusiast. Collector of [jazz on vinyl](https://www.youtube.com/watch?v=u5PG7aRYS1k)."
+  bio              : "Professional figure-outer. Developing infrastructure in the cloud. [Rope dart](https://www.youtube.com/watch?v=rhdTUzapvL0) and [fire spinning](https://www.youtube.com/watch?v=mgFrJNIZt7k) enthusiast. Fascinated by [medicinal mycology](http://mushroomreferences.com). Collector of [jazz on vinyl](https://www.youtube.com/watch?v=u5PG7aRYS1k)."
   location         : "San Francisco Bay Area"
   email            :
   links:
