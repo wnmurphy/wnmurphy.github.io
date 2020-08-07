@@ -15,3 +15,4 @@ node_modules
 npm-debug.log*
 vendor/bundle
 notes
+posts-in-progress
