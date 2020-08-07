@@ -28,7 +28,7 @@ Architected and implemented a highly-configurable rules engine from the ground u
 
 Owned, developed, maintained, and provided troubleshooting and support for mock data generation tool used by all product teams. Written in Python 3. Used Behave to convert BDD statements to cloud API calls with templated request bodies. Used by developers to develop new product features by generating simulated user resources and metric data in Cloud. Created unit test suite and integrated into build to prevent regression bugs. Converted tool into importable package, so it could be used directly in other teams' test suites.
 
-Built a test suite for our manufacturing facility in Hayward.
+Built an automated test suite for our microchip manufacturing facility in Hayward.
 
 Overhauled our user configuration logic. Created new API endpoints, DynamoDB tables and a lambda to handle API requests and validation. Wrote database backfill functions to migrate old data structures to new ones in production. Implemented caching on lambda initialization to drop global resource lookup time from 1500ms to 500ms.
 
