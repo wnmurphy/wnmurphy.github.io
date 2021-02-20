@@ -24,7 +24,7 @@ If you need to achieve a deep focus, the research shows that you really want a p
 
 [Cognitive processes improved with silence](https://journals.sagepub.com/doi/abs/10.1177/0305735607076444).
 
-Further, if you're going to listen to music, it's more optimal to listen to repetitive, non-stimulating music without language or vocals:
+If you are going to listen to music, it's preferable to listen to repetitive, non-stimulating music without language or vocals:
 
 [Hearing 'meaningful' sounds (like language) interferes with concentration](https://www.eurekalert.org/pub_releases/2016-12/asoa-sfh112316.php).
 
@@ -44,7 +44,7 @@ Enter these guys, right here:
 
 Total focus for $13.
 
-I have two pairs: one for home, and one for the office. I take them to the library with me. I even combine them with earplugs to even greater effect. They've been extremely useful in preserving my ability to focus in any environment.
+I have two pairs: one for home, and one for the office. I take them to the library with me. I even combine them with earplugs to even greater effect. They've been extremely useful for maintaining a deep focus in any environment.
 
 If you're working in an open office, I highly recommend giving them a shot.
 

@@ -29,43 +29,43 @@ If your component's name has the word "and" in it, it's a sign you need to break
 
 ## Open-Closed Principle (OCP)
 
-> A component should be extensible, not modifiable.
+> A component should be extensible, not modified.
 
-Write components that are extensible, so that no one ever has to modify them.
+Design components that are extensible, so that no one ever has to modify them.
 
-Strategy 1: Write the "what," and leave the "how" up to the caller.
+Strategy 1: Write the "what," and leave the "how" up to the caller. Typically this means accepting a lambda/callback so the caller can specify their own handling to extend your component.
 
-Strategy 2: Make everything a subclass. The subclasses extend the superclass, which cannot be modified.
+Strategy 2: Make everything a subclass. The subclasses extend the superclass's behavior, which cannot be modified.
 
-I've heard it expressed that "modification is the 'most insulting' thing you can do to a component." This is why we have regression testing, why good engineer prefer the lightest touch, and why you should ideally have complete test coverage in place before you perform major reconstructive surgery (a.k.a. 'refactoring').
+I've heard it expressed that "modification is the 'most insulting' thing you can do to a component." This is why we have regression testing, why good engineers prefer the lightest touch, and why you should ideally have complete test coverage in place before you perform major reconstructive surgery (a.k.a. 'refactoring').
 
 ## Liskov Substitution Principle (LSP)
 
-> You should be able to swap in a subclass without problems.
+> You should be able to swap in a subclass without noticing.
   
 A subclass must entail superclass behavior. The extension of a component should do everything the original component does.
 
-Subclass output (return values and errors) may be a subset of the superclass, but their interface (methods and their arguments) must be identical.
+Subclass output (return values and errors) may be a subset of the superclass, but their interface (available methods + arguments) must be identical.
 
 If you hire a master contractor, but he sends his apprentice instead, the apprentice may be specialized (hanging drywall, maybe), but he needs to correctly handle all of the jobs the master can do to the same standard.
 
 ## Interface Segregation Principle (ISP)
 
-> Create specialized, targeted interfaces.
+> Create specialized, targeted interfaces, isolated by concern.
 
 No component should be forced to depend on methods it does not use.
 
-An (adequate) analogy: if you're designing a motherboard, don't combine the printer connection with the monitor connection. If I'm designing a monitor, I don't want to have to care about printers.
+An (adequate) analogy: if you're designing a motherboard, don't combine the printer connection with the monitor connection. If I'm designing a monitor, I shouldn't have to care about printers.
 
 ## Dependency Inversion Principle (DIP):
 
 > Inject everything a function needs to do it's job, and no more.
 
-Pass dependencies into components, rather than load them globally.
+Instead of referencing dependencies loaded into the scope globally (historical norm), pass them into components specifically (inversion).
 
 A component should not know any more about the world than it needs in order to fulfill it's single purpose.
 
-See any native function that takes a callback like `Array.prototype.map`. It doesn't need to know anything more than: 
+See any native JavaScript function that takes a callback like `Array.prototype.map`. It doesn't need to know anything more than: 
 1. the fact that it needs to iterate over an input array,
 2. the fact that it needs to produce a new output array,
 3. the specific way you want it to accomplish (2) given (1).
@@ -76,4 +76,4 @@ This principle is analogous to a "need-to-know" security clearance for classifie
 
 If a component just needs a value, not the entire object containing the value, then just hand it the value. 
 
-If you're just hammering a nail in, you don't need to retreive the entire toolbox from the garage. Just bring the hammer.
+If you're just hammering a nail in, you don't need to retrieve the entire toolbox from the garage. Just bring the hammer.
