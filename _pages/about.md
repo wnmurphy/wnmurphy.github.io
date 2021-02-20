@@ -22,6 +22,34 @@ Hi. I'm Neil. I'm a senior software engineer with <script>document.write(rounded
 
 ## Professional Highlights
 
+### <i class="fas fa-medkit"></i> [Roche](https://www.roche.com/)
+
+Platform technical lead. First FT onsite engineering hire for a new digital healthcare backend team. 
+
+Drove unification of backend engineers into a consolidated, standalone product team with a single backlog, which was critical for coordination and building reusable services. Drove implementation of best practices: code reviews, "definition of done," etc.
+
+Defined general, reusable platform services and features from product-specific designs in collaboration with product owners.
+
+Coordinated and drove PI planning estimation sessions across multiple continents.
+
+Designed complete set of standard, generalizable platform resources and data models to support a variety of applications, including table schemas, endpoints, etc.
+
+Designed and implemented platform-wide resource configurability.
+
+Enabled a single common patient model across all apps by designing patient profiles. Consolidation of all PII in a single resource enabled easy deletion-on-request (GDPR).
+
+Drove standardization of mobile-first API design (consistent response codes and formatting, pagination, etc.)
+
+Designed platform-level roles and role-based access control (RBAC) by generalizing specific product requirements across client applications.
+
+Designed user registration codes.
+
+Enabled faster development by writing a seed data service, automating creation of a default set of resources on dev and test environments.
+
+Wrote new features in Vert.x and Spring Boot.
+
+Wrote Lambda Authorizers for secure server-to-server export of patient data for clinical analysis.
+
 ### <i class="fas fa-capsules"></i> [Proteus Digital Health](https://www.proteus.com/)
 
 Architected and implemented a highly-configurable rules engine from the ground up. Consumes a patient's data in real time and calculates their triage score, so that doctors can rapidly identify priority patients. Written in node.js on AWS Lambda, DynamoDB, Kinesis, SQS, API Gateway. Complete unit test coverage with Mocha and Chai.
@@ -125,6 +153,7 @@ I've worked with the following tech:
 | | Apache Kafka | Familiar |
 | | Apache Spark | Familiar |
 | | Vert.x | Familiar |
+| | Spring Boot | Familiar |
 | | GraphQL | Familiar |
 | *Databases & ORMs* | | |
 | | MySQL | Familiar |
