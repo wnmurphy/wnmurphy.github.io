@@ -30,9 +30,9 @@ This operation is a bit like an inchworm, inching along the parent array.
 3. Init an intermediary accumulator value `sum`, to store the sum of elements in the current subarray.
 4. Init a counter `windowStart`, representing the index of the start of the sliding window.
 5. For each element at index `windowEnd` in the array,
-6. | Add the element to the accumulator.
-7. | If we have a complete subarray (`windowEnd` is greater than `k-1`),
-8. | > Calculate and append result for this subarray.
-9. | > Remove the element at `windowStart` from `sum`.
-10. | > Increment `windowStart` to next index.
-11. Return `results`.
+    1. Add the element to the accumulator.
+    2. If we have a complete subarray (`windowEnd` is greater than `k-1`),
+        1. Calculate and append result for this subarray.
+        2. Remove the element at `windowStart` from `sum`.
+        3. Increment `windowStart` to next index.
+6. Return `results`.
