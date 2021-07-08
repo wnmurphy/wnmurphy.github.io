@@ -61,14 +61,11 @@ analytics:
 # Site Author
 author:
   name             : "Neil Murphy"
-  avatar           : "/assets/images/avatar-crop.jpg"
+  avatar           : "/assets/images/avatar-2021.jpg"
   bio              : "Professional figure-outer. Developing infrastructure in the cloud. [Rope dart](https://www.youtube.com/watch?v=rhdTUzapvL0) and [fire spinning](https://www.youtube.com/watch?v=mgFrJNIZt7k) enthusiast. Fascinated by [medicinal mycology](http://mushroomreferences.com). Collector of [jazz on vinyl](https://www.youtube.com/watch?v=u5PG7aRYS1k). Dabbler in MPC [beat-making](https://soundcloud.com/klajmusic)."
   location         : "San Francisco Bay Area"
   email            :
   links:
-    - label: "Too Long; Didn't Read:"
-      icon: "fas fa-fw fa-link"
-      url: "https://toolongdidntread.net"
     - label: "Current Resume"
       icon: "fas fa-fw fa-file"
       url: "/assets/pdf/neil_murphy_resume_10_2019.pdf"      
@@ -88,9 +85,6 @@ footer:
     - label: "Current Resume"
       icon: "fas fa-fw fa-file"
       url: "/assets/pdf/neil_murphy_resume_10_2019.pdf"      
-    - label: "Too Long; Didn't Read:"
-      icon: "fas fa-fw fa-link"
-      url: "https://toolongdidntread.net"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/wnmurphy"
