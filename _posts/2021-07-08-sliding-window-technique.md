@@ -21,6 +21,16 @@ Instead of building a new subarray from each starting element, you can create th
 
 This operation is a bit like an inchworm, inching along the parent array.
 
+## Visual example
+
+I've been looking for a way to physicalize algorithms for a while, and came across a video of a CS professor who simply used Legos.
+
+Here's an animation I made of a trivial and contrived array search (find any subarray of length 4), comparing a brute force approach to a sliding window approach.
+
+You can easily see the improved efficiency:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nK5gZl2CDyc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## The basic sliding window
 
 **Goal**: Given an array, get a list of averages for each subarray of length K.
