@@ -162,11 +162,11 @@ class Musician():
 		print(sound_to_make)
 
 	@classmethod
-	def make_new_violinist(cls, "violin"):
+	def make_new_violinist(cls):
 		return cls("violin")
 
 	@classmethod
-	def make_new_harmonica_player(cls, "harmonica"):
+	def make_new_harmonica_player(cls):
 		return cls("harmonica")
 ```
 
