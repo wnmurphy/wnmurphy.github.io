@@ -66,9 +66,9 @@ author:
   location         : "San Francisco Bay Area"
   email            :
   links:
-    - label: "Current Resume"
-      icon: "fas fa-fw fa-file"
-      url: "/assets/pdf/neil_murphy_resume_10_2019.pdf"      
+    # - label: "Current Resume"
+    #   icon: "fas fa-fw fa-file"
+    #   url: "/assets/pdf/neil_murphy_resume_10_2019.pdf"      
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/wnmurphy"
@@ -82,9 +82,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Current Resume"
-      icon: "fas fa-fw fa-file"
-      url: "/assets/pdf/neil_murphy_resume_10_2019.pdf"      
+    # - label: "Current Resume"
+    #   icon: "fas fa-fw fa-file"
+    #   url: "/assets/pdf/neil_murphy_resume_10_2019.pdf"      
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/wnmurphy"
