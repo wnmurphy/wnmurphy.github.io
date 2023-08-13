@@ -78,9 +78,6 @@ Studied my tail off to get into a grueling software engineering program which ha
 
 Wrote electrical assembly and test procedures for 18 commercial communication satellites currently in orbit.
 
-### <i class="fas fa-coffee"></i> Personal
-
-Wrote the stock trading tool for volume spread analysis that I always wished I had.
 
 ## Industry Experience
 
