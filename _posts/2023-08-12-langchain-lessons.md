@@ -7,8 +7,6 @@ category: 'programming'
 tags: ['langchain', 'llm']
 ---
 
-# LangChain lessons and observations
-
 This is mostly a scratch for me to refer to, as I learn, but figured it might also be helpful someone else.
 
 ## Chains in a nutshell

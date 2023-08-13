@@ -8,8 +8,6 @@ category: 'programming'
 tags: ['langchain', 'llm']
 ---
 
-# Achieving route stickiness in LangChain's multi-prompt routing.
-
 LangChain's `MultiPromptRouter` is a powerful tool you can use to dynamically route an incoming message to chains with different models depending on the message's content. This is really powerful, because it enables you to easily hook up different "brains" for your chatbot.
 
 For example: you can have PaLM `chat-bison` as your default model in a `ConversationChain`, and then if the user asks a medical question, it will route to MedPaLM with a "virtual doctor" prompt. Your chatbot is now a virtual doctor.

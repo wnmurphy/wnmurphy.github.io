@@ -7,8 +7,6 @@ category: 'programming'
 tags: ['langchain', 'llm']
 ---
 
-# Achieving maximal chatbot versatility with a "fan-out" chain pattern in LangChain
-
 Using a single prompt for a chatbot quickly runs into limitations.
 
 When you try to make it do more than one thing well, it doesn't.
