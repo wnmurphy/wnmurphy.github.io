@@ -7,7 +7,7 @@ category: 'programming'
 tags: ['langchain', 'llm']
 ---
 
-This is mostly a scratch for me to refer to, as I learn, but figured it might also be helpful someone else.
+This is mostly a scratch for me to refer to, but figured it might also be helpful someone else.
 
 ## Chains in a nutshell
 
@@ -33,7 +33,7 @@ When run, the chain:
  * which optionally writes the output to a data store, if set on the memory.
  * returns the model’s output as the output variable.
 
- ## Miscellaneous lessons
+## Miscellaneous lessons
 
 It can be difficult to understand what's happening under the hood, why you're getting errors related to input/output keys, etc. This is especially true once you start connecting multiple chains and other components. To get visibility into what each chain is getting for input and output, add a breakpoint in the `Chain._call` and `Chain.prep_inputs` methods.
 
