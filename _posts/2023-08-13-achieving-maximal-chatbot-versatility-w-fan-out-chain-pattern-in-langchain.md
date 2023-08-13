@@ -1,6 +1,6 @@
 ---
 title: Achieving maximal chatbot versatility with fan-out chain pattern in LangChain
-date: 2023-08-13T16:12:22-08:00
+date: 2023-08-13T08:12:22-08:00
 layout: single
 permalink: /achieving-maximal-chatbot-versatility-w-fan-out-chain-pattern-in-langchain/
 category: 'programming'
@@ -13,7 +13,7 @@ When you try to make it do more than one thing well, it doesn't.
 
 When desiging the architecture for your chatbot, a "fan-out" chain pattern gives you the most versatility.
 
-Use a multiprompt router to dynamically route the incoming user message to the best chain. The `MultiPromptRouter` uses a model to match the incoming message to the best matching destinationn chain, according to the chain's description and the text of the incoming message.
+Use a `MultiPromptRouter` to dynamically route the incoming user message to the best chain. The `MultiPromptRouter` uses a model to match the incoming message to the best matching destination chain, according to the chain's description and the text of the incoming message.
 
 This gives your chatbot the ability to use different conversational "modes" by routing to a destination chain (prompt + model) specifically for handling that mode.
 

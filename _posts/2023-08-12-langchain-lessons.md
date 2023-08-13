@@ -43,12 +43,6 @@ It can be difficult to understand what's happening under the hood, why you're ge
 
 If you have chat memory with a data store hooked up, saving to the data store occurs in `BaseChatMemory.save_context`.
 
-### Need something and don't see it? Build it!
-
-If you need LangChain to do something it doesn't do yet, open a PR and [contribute](https://github.com/langchain-ai/langchain/blob/master/.github/CONTRIBUTING.md).
-
-It's open source, and they release a new minor or patch version every day or two. Make life easier for the reviewers by including an explicit branch name, and a good description of exactly what your PR does, including use cases. This will expedite your contribution.
-
 ### Templating
 
 Prefer Jinja2 templates over f-string templates, because f-string doesn't support iteration over a list or other operations that Jinja2 does for you. For example, with f-strings you can't pass a list of values into a prompt and have it expanded into a bullet list.
@@ -57,6 +51,11 @@ Prefer Jinja2 templates over f-string templates, because f-string doesn't suppor
 
 Because this stuff is so new, there isn't a lot of documentation. If you're stuck on a bug, try searching all of Github for the class name that you're using, or a unique snippet of the function signature. This can help surface ideas about how others are using the same class.
 
+### Need something and don't see it? Build it!
+
+If you need LangChain to do something it doesn't do yet, open a PR and [contribute](https://github.com/langchain-ai/langchain/blob/master/.github/CONTRIBUTING.md).
+
+It's open source, and they release a new minor or patch version every day or two. Make life easier for the reviewers by including an explicit branch name, and a good description of exactly what your PR does, including use cases. This will expedite your contribution.
 
 ## Common errors and what they mean
 
