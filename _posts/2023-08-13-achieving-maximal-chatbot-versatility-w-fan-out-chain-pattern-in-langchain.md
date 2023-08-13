@@ -1,5 +1,5 @@
 ---
-title: Achieving maximal chatbot versatility with fan-out chain pattern in LangChain
+title: Achieving maximal chatbot versatility with a fan-out chain pattern in LangChain
 date: 2023-08-13T08:12:22-08:00
 layout: single
 permalink: /achieving-maximal-chatbot-versatility-w-fan-out-chain-pattern-in-langchain/
@@ -35,3 +35,5 @@ user input >
 ```
 
 The net effect is that your chatbot becomes a Swiss Army knife, and you can easily rack in additional "modes" to extend it's skill set.
+
+In my opinion, this should be the standard pattern for any chatbot that needs to do more than one thing, or respond to more than one topic.
