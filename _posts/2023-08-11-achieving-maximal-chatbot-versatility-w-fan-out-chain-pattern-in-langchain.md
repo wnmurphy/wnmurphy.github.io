@@ -1,6 +1,6 @@
 ---
 title: Achieving maximal chatbot versatility with a fan-out chain pattern in LangChain
-date: 2023-08-13T08:12:22-08:00
+date: 2023-08-11T08:12:22-08:00
 layout: single
 permalink: /achieving-maximal-chatbot-versatility-w-fan-out-chain-pattern-in-langchain/
 category: 'programming'

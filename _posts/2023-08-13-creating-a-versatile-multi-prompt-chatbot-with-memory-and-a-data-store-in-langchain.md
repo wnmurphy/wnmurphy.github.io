@@ -1,7 +1,7 @@
 ---
 title: Creating a versatile multi-prompt chatbot with memory and a data store in LangChain.
 
-date: 2023-08-16T07:00:00-08:00
+date: 2023-08-13T07:00:00-08:00
 layout: single
 permalink: /creating-a-versatile-multi-prompt-chatbot-with-memory-and-a-data-store-in-langchain/
 category: 'programming'

@@ -1,7 +1,7 @@
 ---
 title: Achieving route stickiness in LangChain's multi-prompt routing
 
-date: 2023-08-14T16:12:22-08:00
+date: 2023-08-12T16:12:22-08:00
 layout: single
 permalink: /achieving-route-stickiness-in-langchains-multiprompt-router/
 category: 'programming'

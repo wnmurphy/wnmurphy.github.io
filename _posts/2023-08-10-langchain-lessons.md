@@ -1,6 +1,6 @@
 ---
 title: LangChain lessons and observations
-date: 2023-08-12T16:12:22-08:00
+date: 2023-08-10T16:12:22-08:00
 layout: single
 permalink: /langchain-lessons/
 category: 'programming'

@@ -1,7 +1,7 @@
 ---
 title: How to speak properly to an LLM
 
-date: 2023-08-15T21:09:22-08:00
+date: 2023-08-14T21:09:22-08:00
 layout: single
 permalink: /how-to-speak-properly-to-an-llm/
 category: 'programming'
