@@ -5,7 +5,7 @@ date: 2023-08-14T16:12:22-08:00
 layout: single
 permalink: /achieving-route-stickiness-in-langchains-multiprompt-router/
 category: 'programming'
-tags: ['langchain', 'llm']
+tags: ['langchain', 'chatbot', llm']
 ---
 
 LangChain's `MultiPromptRouter` is a powerful tool you can use to dynamically route an incoming message to chains with different models depending on the message's content. This is really powerful, because it enables you to easily hook up different "brains" for your chatbot.
@@ -38,7 +38,7 @@ Human: Thanks, that's good advice.
 AI: I'm glad. It can be difficult to deal with these things, but it's helpful to talk about. I'm here if you need me.
 ```
 
-This gives the routing feature a winder contextual window, resulting in better conversation continuity and more seamless transitions between destination chains or "modes" of your chatbot.
+This gives the routing feature a wider contextual window which makes it aware of the broader topic of conversation, creating a better sense of continuity and more seamless transitions between destination chains or "modes" of your chatbot.
 
 
 ## How to do this

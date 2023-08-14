@@ -4,7 +4,7 @@ date: 2023-08-13T08:12:22-08:00
 layout: single
 permalink: /achieving-maximal-chatbot-versatility-w-fan-out-chain-pattern-in-langchain/
 category: 'programming'
-tags: ['langchain', 'llm']
+tags: ['langchain', 'chatbot', 'llm']
 ---
 
 Using a single prompt for a chatbot quickly runs into limitations.
