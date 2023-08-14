@@ -121,7 +121,7 @@ Those are the only two valid values for "destination".
 """
 ````
 
-Then I use this prompt in my router. I'm passing
+Then I use this prompt in my router. I'm passing in the `ConversationWindowBufferMemory` router memory, and injecting the last 2 messages directly into the router's prompt template as a string.
 
 ```python
 def generate_router_prompt(route_definitions, router_memory):
