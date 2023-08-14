@@ -23,15 +23,15 @@ Diagram of the general idea:
 
 ```
 user input > 
-	MultiPromptRouter > 
-		LLMRouter >
-			* default: ConversationChain 
-			* request_for_information: LLMChain + informational response prompt
-			* scheduling_questions: scheduling_agent > GET request for open time slots
-			* journal_entry: journal_entry_agent > POST request to write a new journal entry
-			* record_weight: weight_logging_agent > POST request to log a new weight
-			* privacy_questions: LLMChain + privacy prompt
-			etc.
+  MultiPromptRouter > 
+    LLMRouter >
+      * default: ConversationChain 
+      * request_for_information: LLMChain + informational response prompt
+      * scheduling_questions: scheduling_agent > GET request for open time slots
+      * journal_entry: journal_entry_agent > POST request to write a new journal entry
+      * record_weight: weight_logging_agent > POST request to log a new weight
+      * privacy_questions: LLMChain + privacy prompt
+      etc.
 ```
 
 The net effect is that your chatbot becomes a Swiss Army knife, and you can easily rack in additional "modes" to extend it's skill set.
