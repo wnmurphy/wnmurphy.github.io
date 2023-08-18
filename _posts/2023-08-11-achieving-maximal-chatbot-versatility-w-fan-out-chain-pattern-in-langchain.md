@@ -1,8 +1,8 @@
 ---
-title: Achieving maximal chatbot versatility with a fan-out chain pattern in LangChain
+title: Achieving maximal chatbot versatility with topic routing in LangChain
 date: 2023-08-11T08:12:22-08:00
 layout: single
-permalink: /achieving-maximal-chatbot-versatility-w-fan-out-chain-pattern-in-langchain/
+permalink: /achieving-maximal-chatbot-versatility-w-topic-routing-in-langchain/
 category: 'programming'
 tags: ['langchain', 'chatbot', 'llm']
 ---

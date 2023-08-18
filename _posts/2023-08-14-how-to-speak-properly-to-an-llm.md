@@ -79,6 +79,15 @@ Summarize the data under ADDITIONAL INFORMATION in valid JSON format, like the E
 ```
 
 
+## Frame it positively
+
+Include instructions that focus on the output you _do_ want, rather than avoiding the output you _don't_ want. You'll get better results.
+
+You can include information about penalties for unwanted behavior, but these aren't as effective as describing the desired behavior.
+
+If you're trying to eliminate bad behavior, try using LangChain's `ConstitutionalPrinciple`, which allows you to define "values" for your chatbot, use a model to evaluate whether the output violates any, and then use revision instructions to rewrite the output according to the principle.
+
+
 ## Eliminate ambiguity 
 
 Once your prompt is re-written in plain English, do another pass to identify any words or phrases that could be misinterpreted.
