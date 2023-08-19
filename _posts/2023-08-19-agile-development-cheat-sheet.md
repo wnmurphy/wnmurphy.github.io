@@ -8,7 +8,7 @@ category: 'organizations'
 tags: ['agile']
 ---
 
-This is a cheat sheet for anyone from a junior dev or non-technical background joining a technical team for the first time, who wants to know how it typically works and what to expect.
+This is a cheat sheet for a junior dev or anyone from non-technical background joining a technical team for the first time, who wants to know how it typically works and what to expect.
 
 ## Overview 
 
