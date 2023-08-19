@@ -5,7 +5,7 @@ date: 2023-08-14T21:09:22-08:00
 layout: single
 permalink: /how-to-speak-properly-to-an-llm/
 category: 'programming'
-tags: [llm']
+tags: ['llm']
 ---
 
 An LLM is literally a text predicting machine. That's all it does. 
