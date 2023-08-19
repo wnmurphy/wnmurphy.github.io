@@ -1,7 +1,7 @@
 ---
 title: Agile software development cheat sheet for new devs or non-technical contributors
 
-date: 2023-08-14T21:09:22-08:00
+date: 2023-08-18T21:09:22-08:00
 layout: single
 permalink: /agile-software-development-cheat-sheet-for-new-devs-or-non-technical-contributors/
 category: 'organizations'

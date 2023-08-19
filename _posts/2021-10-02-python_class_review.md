@@ -4,6 +4,7 @@ date: 2021-10-02T15:32:50.887-08:00
 layout: single
 permalink: /python-class-overview/
 category: 'programming'
+tags: ['python']
 ---
 
 I thought it would be fun to review classes in Python and produce a blog post as an artifact, maybe to help others, or to serve as a brush-up for future-me.
