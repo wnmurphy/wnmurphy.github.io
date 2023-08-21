@@ -3,7 +3,7 @@ title: Insights about software development I wish had clicked earlier
 
 date: 2023-08-20T21:09:22-08:00
 layout: single
-permalink: /insights-about-software-development-i-wish-had-clicked-earlier
+permalink: /insights-about-software-development-i-wish-had-clicked-earlier/
 category: 'programming'
 tags: ['principles', 'philosophy']
 --- 
