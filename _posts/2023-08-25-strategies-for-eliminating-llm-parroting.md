@@ -7,11 +7,11 @@ category: 'programming'
 tags: ['langchain', 'chatbot', 'llm']
 ---
 
-LLMs have been described as "[stochastic parrots](https://en.wikipedia.org/wiki/Stochastic_parrot)" (see the LangChain logo/mascot) because they appear to be conversing, but are actually just probabilistically repeating words that they've learned.
+LLMs have been described as [stochastic parrots](https://en.wikipedia.org/wiki/Stochastic_parrot) (see the LangChain logo/mascot) because they appear to be conversing, but are actually just probabilistically repeating words that they've learned.
 
 ## Parroting in conversation
 
-This is most obvious when an LLM starts responding as the user, continuing both sides of the conversation rather than ending it's turn.
+Parroting is most obvious when an LLM starts responding as the user, continuing both sides of the conversation rather than ending it's turn.
 
 Here's an example...
 
@@ -31,7 +31,7 @@ If you're seeing chat metadata in your prediction from the model, it's because t
 
 ```
 # INSTRUCTIONS
-You are a chat bot. Respond to the member.
+You are a chat bot. Respond to the user.
 
 # CHAT HISTORY
 Human: How do I make my own mayonnaise?
@@ -74,11 +74,16 @@ This is ideal. You can create a custom `OutputParser` to trim any parroting pref
 Create a cleaning function:
 
 ```python
-def clean_parroting(
-    prediction_text, custom_prefixes=[], custom_suffixes=[]
-):
+def clean_parroting(prediction_text, custom_prefixes=[], custom_suffixes=[]):
     # Remove parrotings from the prediction text
-    parroting_prefixes = ["AI: ", " AI: ", "\nAI: ", "\nAI: "]
+    parroting_prefixes = [
+    	"\nAI: ",
+    	" AI: ",
+    	"AI: ",
+        "\n[assistant]:",
+        " [assistant]:",
+        "[assistant]:",    	
+    ]
     parroting_prefixes.extend(custom_prefixes)
 
     for parroting_prefix in parroting_prefixes:
@@ -93,9 +98,6 @@ def clean_parroting(
         "\n[user]:",
         " [user]:",
         "[user]:",
-        "\n[assistant]:",
-        " [assistant]:",
-        "[assistant]:",
     ]
     parroting_suffixes.extend(custom_suffixes)
 
@@ -138,7 +140,7 @@ def generate_destination_chains(route_definitions, default_model, memory=None):
     return destination_chains
 ```
 
-For more info on this destination chain generator, see: [LangChain chatbot tutorial]("/creating-a-versatile-multi-prompt-chatbot-with-memory-and-a-data-store-in-langchain/")
+For more info on this destination chain generator, see: [LangChain chatbot tutorial](/creating-a-versatile-multi-prompt-chatbot-with-memory-and-a-data-store-in-langchain/)
 
 ## Summary
 

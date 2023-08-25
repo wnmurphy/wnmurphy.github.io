@@ -24,7 +24,9 @@ A collection of insights I wish I'd had earlier in my careeer, that might be use
 
 **Code grows outward.** Code evolves, iteratively, from a skeleton. Never build something because you assume you'll need it. You won't need it, or you'll need something different instead.
 
-**The specific is your excuse to accomplish the general.** Everything you write should be driven by a specific, well-defined use case. When you accomplish your specific use case, do it in a general/reusable way, so that later you have a component you can either reuse or extend. The exact opposite of this is designing an entire system in advance, trying to anticipate every use case. The assumptions you baked in will certainly be wrong, and you will have implemented a ton of complexity that is a pain to change later. 
+**The specific is your excuse to accomplish the general.** Everything you write should be driven by a specific, well-defined use case. When you accomplish your specific use case, use it as the opportunity to either get closer to the ideal state (refactoring), or do it in a general/reusable way, so that you have a component you can either reuse or extend for a future use case.
+
+The exact opposite of this is designing an entire system in advance, trying to anticipate every use case. The assumptions you baked in will certainly be wrong, and you will have implemented a ton of complexity that is a pain to change later. 
 
 **Aim for the Minimum Viable Product (MVP).** When you implement a feature, write the absolute minimum code that achieves the goal, and do it in a way that isn't tightly coupled to (unnecessarily dependent on) anything. This makes it easy to change later.
 
