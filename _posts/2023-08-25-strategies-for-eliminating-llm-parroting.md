@@ -7,7 +7,9 @@ category: 'programming'
 tags: ['langchain', 'chatbot', 'llm']
 ---
 
-LLMs have been described as [stochastic parrots](https://en.wikipedia.org/wiki/Stochastic_parrot) (see the LangChain logo/mascot) because they appear to be conversing, but are actually just probabilistically repeating words that they've learned.
+LLMs have been described as [stochastic parrots](https://en.wikipedia.org/wiki/Stochastic_parrot) (see the LangChain logo/mascot).
+
+They appear to be conversing, but are actually just probabilistically repeating words that they've learned.
 
 ## Parroting in conversation
 
