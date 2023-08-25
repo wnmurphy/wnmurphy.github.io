@@ -79,7 +79,7 @@ Summarize the data under ADDITIONAL INFORMATION in valid JSON format, like the E
 ```
 
 
-## Frame it positively
+## Use a positive frame for instructions
 
 Include instructions that focus on the output you _do_ want, rather than avoiding the output you _don't_ want. You'll get better results.
 
