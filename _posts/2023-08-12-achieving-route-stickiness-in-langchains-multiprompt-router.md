@@ -101,7 +101,7 @@ Return a markdown code snippet with a JSON object formatted to look like:
 {{{{
     "destination": string \\ name of the prompt to use or "DEFAULT"
     "next_inputs": string \\ the original input
-\}\}\}\}
+}}}}
 ```
 
 REMEMBER: "destination" MUST be one of the candidate prompt names specified below OR \
@@ -115,7 +115,7 @@ Those are the only two valid values for "destination".
 {last_k_msgs}
 
 << INPUT >>
-\{{input}\}
+{{input}}
 
 << OUTPUT (must include ```json at the start of the response) >>
 """
