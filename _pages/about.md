@@ -16,11 +16,25 @@ title: About Me
   const roundedYearsProgramming = yearsProgramming.toFixed(2);
 </script>
 
-Hi. I'm Neil. I'm a senior software engineer with <script>document.write(roundedYearsProgramming)</script> years of experience; I started full stack, and now specialize in backend tech and cloud infrastructure. Currently living in the San Francisco Bay Area.
+Hi. I'm Neil. I'm a senior software engineer with <script>document.write(roundedYearsProgramming)</script> years of experience, specializing in generative AI and cloud infrastructure. Currently living in the San Francisco Bay Area.
 
 ![Obligatory looking-at-laptop photo](/assets/images/datface.jpg)
 
 ## Professional Highlights
+
+### <i class="fas fa-heartbeat"></i> [Vida Health](https://www.vida.com/)
+
+Designed architecture and end-to-end flow for prescribing feature and integrated with 3rd-party prescription service, enabling Vida to offer prescription medication as a service.
+
+Designed and implemented provider tagging features, enabling providers to see an inbox of priority clinical notes they've been tagged on.
+
+Designed and implemented provider referrals feature, automatically configuring new provider-user relationships on approval.
+
+Made our MyFitnessPal-style food logger 100x faster (12s to 120ms) by moving nested calls from GraphQL to a database join in the resolving service.
+
+SRE on-call 24/7 in 2-wk rotation for platform with 40,000+ monthly active users.
+
+Managed weekly service deployments. Enabled one-command deployment rollbacks by added database migration backwards-compatibility check in pre-commit hook and rewriting deployment process.
 
 ### <i class="fas fa-medkit"></i> [Roche](https://www.roche.com/)
 
@@ -83,6 +97,7 @@ Wrote electrical assembly and test procedures for 18 commercial communication sa
 
 I've worked in these spaces:
 
+- Generative AI.
 - Event-driven, serverless architecture.
 - Medical devices and pharmaceuticals.
 - FDA regulatory compliance.
@@ -105,11 +120,9 @@ I care about minimizing the cognitive load of context switching. Given the choic
 
 I care about creating a non-toxic workplace and always check my ego at the door. I like to help others be successful, and am happy to spend time answering questions for stakeholders and other developers.
 
-I love my work.
-
 ## Bonus Skills
 
-I have additional backgrounds in:
+I have additional professional experience with:
 - **technical writing**. Most engineers hate writing docs. I actually enjoy crafting well-written documentation and understand how to convey technical concepts.
 - **training**. I enjoy explaining concepts and teaching others.
 - **customer success**. I enjoy helping other people achieve their technical goals.
@@ -123,62 +136,3 @@ I love the feeling of closing browser tabs _en masse_ after a PR is merged.
 I really like markdown.
 
 I can't watch HBO's _Silicon Valley_. It's way too real.
-
-## Technology
-
-I've worked with the following tech:
-
-| Category | Tech | Level |
-| ------ | ------ | ------ |
-| *Languages* | | |
-| | Python 3 | Strong |
-| | JavaScript | Strong |
-| | node.js | Strong |
-| | Java | Familiar |
-| | Ruby | Rusty |
-| | Go | Rusty |
-| *Amazon Web Services* | | |
-| | Cloudwatch | Strong |
-| | DynamoDB | Strong |
-| | Kinesis | Strong |
-| | Lambda | Strong |
-| | SQS | Strong |
-| | S3 | Strong |
-| | RDS/Aurora | Familiar |
-| | Secrets Manager | Familiar |
-| *Other Infrastructure* | | |
-| | Apache Kafka | Familiar |
-| | Apache Spark | Familiar |
-| | Vert.x | Familiar |
-| | Spring Boot | Familiar |
-| | GraphQL | Familiar |
-| *Databases & ORMs* | | |
-| | MySQL | Familiar |
-| | Postgres | Familiar |
-| | Cassandra | Familiar |
-| | MongoDB | Familiar |
-| | Redis | Familiar |
-| | Sequelize ORM | Familiar |
-| | Bluebird ORM | Familiar |
-| | Mongoose ORM | Familiar |
-| *Testing* | | |
-| | Mocha | Strong |
-| | Chai | Strong |
-| | Behave | Strong |
-| | nose2 | Strong |
-| | Sinon | Familiar |
-| | PhantomJS | Familiar |
-| | JUnit | Familiar |
-| | Mockito | Familiar |
-| *Front End* | | |
-| | AngularJS | Familiar |
-| | React.js | Familiar |
-| | HTML5 | Familiar |
-| | CSS3 | Familiar |
-| *Miscellaneous* | | |
-| | Git | Strong |
-| | JIRA | Strong |
-| | Confluence | Strong |
-| | BitBucket | Strong |
-| | *NIX | Strong |
-| | Maven | Familiar |
