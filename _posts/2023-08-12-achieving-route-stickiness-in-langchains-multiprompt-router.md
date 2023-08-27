@@ -47,12 +47,11 @@ First, create your own copy of the routing prompt, located in `langchain/chains/
 
 Original:
 
-````python
-MULTI_PROMPT_ROUTER_TEMPLATE = """\
-Given a raw text input to a language model select the model prompt best suited for \
-the input. You will be given the names of the available prompts and a description of \
-what the prompt is best suited for. You may also revise the original input if you \
-think that revising it will ultimately lead to a better response from the language \
+````
+Given a raw text input to a language model select the model prompt best suited for
+the input. You will be given the names of the available prompts and a description of
+what the prompt is best suited for. You may also revise the original input if you
+think that revising it will ultimately lead to a better response from the language
 model.
 
 << FORMATTING >>
@@ -64,9 +63,9 @@ Return a markdown code snippet with a JSON object formatted to look like:
 }}}}
 ```
 
-REMEMBER: "destination" MUST be one of the candidate prompt names specified below OR \
+REMEMBER: "destination" MUST be one of the candidate prompt names specified below OR
 it can be "DEFAULT" if the input is not well suited for any of the candidate prompts.
-REMEMBER: "next_inputs" can just be the original input if you don't think any \
+REMEMBER: "next_inputs" can just be the original input if you don't think any
 modifications are needed.
 
 << CANDIDATE PROMPTS >>
@@ -76,13 +75,11 @@ modifications are needed.
 {{input}}
 
 << OUTPUT (must include ```json at the start of the response) >>
-"""
 ````
 
 I dislike that it allows the routing model to modify the incoming text, because this creates a false chat history, so I remove that language. I also inject my `most_recent_k_msgs` in a new section and add instruction to consider them with weight.
 
-````python
-MULTI_PROMPT_ROUTER_TEMPLATE = """
+````
 Given a raw text input to a language model select the model prompt best suited for 
 the input. You will be given the names of the available prompts and a description of 
 what the prompt is best suited for.
@@ -118,7 +115,6 @@ Those are the only two valid values for "destination".
 {{input}}
 
 << OUTPUT (must include ```json at the start of the response) >>
-"""
 ````
 
 Then I use this prompt in my router. I'm passing in the `ConversationWindowBufferMemory` router memory, and injecting the last 2 messages directly into the router's prompt template as a string.
