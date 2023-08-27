@@ -47,74 +47,83 @@ First, create your own copy of the routing prompt, located in `langchain/chains/
 
 Original:
 
-	Given a raw text input to a language model select the model prompt best suited for
-	the input. You will be given the names of the available prompts and a description of
-	what the prompt is best suited for. You may also revise the original input if you
-	think that revising it will ultimately lead to a better response from the language
-	model.
+<pre>
+````python
+MULTI_PROMPT_ROUTER_TEMPLATE = """\
+Given a raw text input to a language model select the model prompt best suited for 
+the input. You will be given the names of the available prompts and a description of 
+what the prompt is best suited for. You may also revise the original input if you 
+think that revising it will ultimately lead to a better response from the language 
+model.
 
-	<< FORMATTING >>
-	Return a markdown code snippet with a JSON object formatted to look like:
-	```json
-	{{{{
-	    "destination": string \\ name of the prompt to use or "DEFAULT"
-	    "next_inputs": string \\ a potentially modified version of the original input
-	}}}}
-	```
+<< FORMATTING >>
+Return a markdown code snippet with a JSON object formatted to look like:
+```json
+{{{{
+    "destination": string \\ name of the prompt to use or "DEFAULT"
+    "next_inputs": string \\ a potentially modified version of the original input
+}}}}
+```
 
-	REMEMBER: "destination" MUST be one of the candidate prompt names specified below OR
-	it can be "DEFAULT" if the input is not well suited for any of the candidate prompts.
-	REMEMBER: "next_inputs" can just be the original input if you don't think any
-	modifications are needed.
+REMEMBER: "destination" MUST be one of the candidate prompt names specified below OR 
+it can be "DEFAULT" if the input is not well suited for any of the candidate prompts.
+REMEMBER: "next_inputs" can just be the original input if you don't think any 
+modifications are needed.
 
-	<< CANDIDATE PROMPTS >>
-	{destinations}
+<< CANDIDATE PROMPTS >>
+{destinations}
 
-	<< INPUT >>
-	{{input}}
+<< INPUT >>
+{{input}}
 
-	<< OUTPUT (must include ```json at the start of the response) >>
-	"""
+<< OUTPUT (must include ```json at the start of the response) >>
+"""
+````
+</pre>
 
 I dislike that it allows the routing model to modify the incoming text, because this creates a false chat history, so I remove that language. I also inject my `most_recent_k_msgs` in a new section and add instruction to consider them with weight.
 
-	MULTI_PROMPT_ROUTER_TEMPLATE = """
-	Given a raw text input to a language model select the model prompt best suited for 
-	the input. You will be given the names of the available prompts and a description of 
-	what the prompt is best suited for.
+<pre>
+````python
+MULTI_PROMPT_ROUTER_TEMPLATE = """
+Given a raw text input to a language model select the model prompt best suited for 
+the input. You will be given the names of the available prompts and a description of 
+what the prompt is best suited for.
 
-	You will also be given the most recent chat messages.
+You will also be given the most recent chat messages.
 
-	Check the most recent chat messages to identify the current topic when selecting a model prompt.
+Check the most recent chat messages to identify the current topic when selecting a model prompt.
 
-	When selecting a model prompt:
-	1. Base 80% of your decision on the recent chat messages.
-	2. Base 20% of your decision on the raw text.
+When selecting a model prompt:
+1. Base 80% of your decision on the recent chat messages.
+2. Base 20% of your decision on the raw text.
 
-	<< FORMATTING >>
-	Return a markdown code snippet with a JSON object formatted to look like:
-	```json
-	{{{{
-	    "destination": string \\ name of the prompt to use or "DEFAULT"
-	    "next_inputs": string \\ the original input
-	}}}}
-	```
+<< FORMATTING >>
+Return a markdown code snippet with a JSON object formatted to look like:
+```json
+{{{{
+    "destination": string \\ name of the prompt to use or "DEFAULT"
+    "next_inputs": string \\ the original input
+}}}}
+```
 
-	REMEMBER: "destination" MUST be one of the candidate prompt names specified below OR
-	it can be "DEFAULT" if the input is not well suited for any of the candidate prompts.
-	Those are the only two valid values for "destination".
+REMEMBER: "destination" MUST be one of the candidate prompt names specified below OR \
+it can be "DEFAULT" if the input is not well suited for any of the candidate prompts.
+Those are the only two valid values for "destination".
 
-	<< CANDIDATE PROMPTS >>
-	{destinations}
+<< CANDIDATE PROMPTS >>
+{destinations}
 
-	<< MOST RECENT CHAT MESSAGES >>
-	{last_k_msgs}
+<< MOST RECENT CHAT MESSAGES >>
+{last_k_msgs}
 
-	<< INPUT >>
-	{{input}}
+<< INPUT >>
+{{input}}
 
-	<< OUTPUT (must include ```json at the start of the response) >>
-	"""
+<< OUTPUT (must include ```json at the start of the response) >>
+"""
+````
+</pre>
 
 Then I use this prompt in my router. I'm passing in the `ConversationWindowBufferMemory` router memory, and injecting the last 2 messages directly into the router's prompt template as a string.
 
