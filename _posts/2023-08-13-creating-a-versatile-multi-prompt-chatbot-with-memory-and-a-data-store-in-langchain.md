@@ -145,6 +145,7 @@ We'll modify the default multi-prompt router prompt:
 * Add weight to the most recent chat messages when choosing a prompt.
 * Add few-shot examples to improve performance.
 
+{% raw %}
 ````python
 MULTI_PROMPT_ROUTER_TEMPLATE = """
 Given a raw text input to a language model select the model prompt best suited for the input.
@@ -204,6 +205,7 @@ Those are the only two valid values for "destination".
 << OUTPUT (must include ```json at the start of the response) >>
 """
 ````
+{% endraw %}
 
 ### Define destination chains
 
