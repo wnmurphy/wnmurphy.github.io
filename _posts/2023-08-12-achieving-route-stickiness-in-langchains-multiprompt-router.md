@@ -47,7 +47,6 @@ First, create your own copy of the routing prompt, located in `langchain/chains/
 
 Original:
 
-<pre>
 ````python
 MULTI_PROMPT_ROUTER_TEMPLATE = """\
 Given a raw text input to a language model select the model prompt best suited for 
@@ -79,11 +78,9 @@ modifications are needed.
 << OUTPUT (must include ```json at the start of the response) >>
 """
 ````
-</pre>
 
 I dislike that it allows the routing model to modify the incoming text, because this creates a false chat history, so I remove that language. I also inject my `most_recent_k_msgs` in a new section and add instruction to consider them with weight.
 
-<pre>
 ````python
 MULTI_PROMPT_ROUTER_TEMPLATE = """
 Given a raw text input to a language model select the model prompt best suited for 
@@ -104,7 +101,7 @@ Return a markdown code snippet with a JSON object formatted to look like:
 {{{{
     "destination": string \\ name of the prompt to use or "DEFAULT"
     "next_inputs": string \\ the original input
-}}}}
+\}\}\}\}
 ```
 
 REMEMBER: "destination" MUST be one of the candidate prompt names specified below OR \
@@ -118,12 +115,11 @@ Those are the only two valid values for "destination".
 {last_k_msgs}
 
 << INPUT >>
-{{input}}
+\{{input}\}
 
 << OUTPUT (must include ```json at the start of the response) >>
 """
 ````
-</pre>
 
 Then I use this prompt in my router. I'm passing in the `ConversationWindowBufferMemory` router memory, and injecting the last 2 messages directly into the router's prompt template as a string.
 
