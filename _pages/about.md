@@ -24,17 +24,39 @@ Hi. I'm Neil. I'm a senior software engineer with <script>document.write(rounded
 
 ### <i class="fas fa-heartbeat"></i> [Vida Health](https://www.vida.com/)
 
+#### Generative AI
+
+Architected Vida Health's foundational generative AI approach and productized user-facing, LLM-driven features.
+
+Designed and built a virtual healthcare assistant chatbot: memory of prior interactions w/ conversational state storage, real-time awareness of patient medical data, multi-prompt routing to select conversational mode based on incoming message content, route stickiness for a more natural conversation, generation of chatbot responses from proprietary healthcare and technical support content using GCP Vector Store (Matching Engine) and Retrieval-Augmented Generation (RAG).
+
+Designed and built healthcare provider message suggestions, drafts auto-generated for providers based on prior conversation with patient.
+
+Designed and built at-a-glance patient snapshot, summarizing patient medical data and progress for healthcare providers.
+
+Enabled real-time contextual awareness of user medical data in all of our GAI features by designing and implementing standardized injectable user snapshot component, integrating patient data feature store data into prompts.
+
+Standardized Vida Health's prompt management approach: source control, versioning, templating, and injection of contextual user data from our databases and feature stores.
+
+Designed and built our RLHF/explicit training loop to enable feedback collection and evaluation for prompt engineering. Logging all predictions/prompts/parameters used, subsequent user feedback, additional comments or user modifications to prediction, and then making this feedback available to Data Science team for further model and prompt tuning.
+
+Wrote Jupyter notebooks to build Custom Prediction Routine (CPR) containers for open source models like Falcon-7B and GPT-JT, deploying to private endpoints in Vertex AI.
+
+LangChain open source contributor.
+
+#### Infrastructure
+
+SRE on-call 24/7 in 2-wk rotation for platform with 40,000+ monthly active users.
+
+Managed weekly service deployments. Enabled one-command deployment rollbacks by added database migration backwards-compatibility check in pre-commit hook and rewriting deployment process.
+
 Designed architecture and end-to-end flow for prescribing feature and integrated with 3rd-party prescription service, enabling Vida to offer prescription medication as a service.
 
 Designed and implemented provider tagging features, enabling providers to see an inbox of priority clinical notes they've been tagged on.
 
 Designed and implemented provider referrals feature, automatically configuring new provider-user relationships on approval.
 
-Made our MyFitnessPal-style food logger 100x faster (12s to 120ms) by moving nested calls from GraphQL to a database join in the resolving service.
-
-SRE on-call 24/7 in 2-wk rotation for platform with 40,000+ monthly active users.
-
-Managed weekly service deployments. Enabled one-command deployment rollbacks by added database migration backwards-compatibility check in pre-commit hook and rewriting deployment process.
+Improved performance of our MyFitnessPal-style food logger by 100x (~12s to ~120ms) by moving nested calls from GraphQL to a database join in the resolving service.
 
 ### <i class="fas fa-medkit"></i> [Roche](https://www.roche.com/)
 
