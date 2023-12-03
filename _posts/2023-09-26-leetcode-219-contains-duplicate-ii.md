@@ -7,8 +7,6 @@ category: 'programming'
 tags: ['leetcode', 'arrays_and_hashing']
 ---
 
-# LeetCode 219 - Contains Duplicate II
-
 [LeetCode - Contains Duplicate II](https://leetcode.com/problems/contains-duplicate-ii/description/)
 
 ## Principles
