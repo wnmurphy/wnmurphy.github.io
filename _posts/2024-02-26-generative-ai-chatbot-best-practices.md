@@ -76,12 +76,12 @@ Begin your responses with "The user".
 ```
 
 Incorporate into your router prompt:
-```
+````
 Given the user's current intent and their incoming message, select the route best suited to fulfill that intent.
 You will be given the names of the available route and a description of what each route is best suited for.
 << OUTPUT FORMAT >>
 Return a markdown code snippet with a JSON object formatted to look like:
- json
+```json
  {{{{
      "destination": string \\ key of the route to use or "DEFAULT"
      "next_inputs": {{{{
@@ -90,6 +90,7 @@ Return a markdown code snippet with a JSON object formatted to look like:
      }}}}
  }}}}
 ```
+````
 
 The beauty of this as a best practice is that it also give you contextual topic awareness for free when you inject the most recent 4 messages. 
 
