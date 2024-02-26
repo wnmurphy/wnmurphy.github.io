@@ -7,7 +7,9 @@ category: 'programming'
 tags: ['langchain', 'chatbot', 'llm', 'best practices']
 ---
 
-Over the last year, each of us in the industry has been learning how to integrate generative AI together, mostly exploring and figuring things out as we've gone along. This is a collection of lessons I've learned from rapid iteration and experimentation in developing a chatbot healthcare assistant.
+Over the last year, each of us in the industry has been learning how to integrate generative AI together, mostly exploring and figuring things out as we've gone along.
+
+This is a collection of lessons I've learned from rapid iteration and experimentation in developing a chatbot healthcare assistant.
 
 ## Use a router that selects the right prompt/tool based on the incoming message
 
@@ -21,27 +23,37 @@ You can probably adapt an agent/tool to an `LLMChain` interface so it can be use
 
 ## Make your default route a conversation model
 
-I found that using a conversational model to drive your default route will smooth over most rough spots in the conversation. When the router can't match to the correct prompt, then at least it will be handled gracefully in a way that feels natural to the user.
+I found that using a conversational model to drive your default route will smooth over most rough spots in the conversation.
 
-This approach was later validated by seminar speakers at Google's 2023 Data Cloud & AI Summit, which confirmed that others had also discovered this as a best practice.
+When the router can't match to the correct prompt, then at least it will be handled gracefully in a way that feels natural to the user.
+
+This approach was later recommended by seminar speakers at Google's 2023 Data Cloud & AI Summit, which validated the approach and confirmed that others had also discovered this as a best practice.
 
 ## Use short, targeted prompts and then compose them
 
 Your prompt is effectively a function. As with functions, each prompt should be a [small, sharp tool](https://brandur.org/small-sharp-tools).
 
-Output quality decreases as prompt length increases. We learned early on that you can't just cram everything into a prompt and expect the model to know what to do and do the right thing. We initially tried aggregating a blob of user data, thinking we could inject that into a prompt and the model would just understand it. Not only did it not use the data effectively, but it paid less attention to the other instructions.
+Output quality decreases as prompt length increases. We learned early on that you can't just cram everything into a prompt and expect the model to know what to do and do the right thing.
+
+We initially tried aggregating a blob of user data, thinking we could inject that into a prompt and the model would just understand it. Not only did it not use the data effectively, but it paid less attention to the other instructions.
 
 Use focused, shorter prompts and then compose model calls.
 
 ## Use consistent terminology within and across your prompts
 
-LLMs are associative by nature; they effectively encode the relationships between tokens in a domain language. If you use several different words that mean the same thing throughout your prompt, those associations will be weaker, and your results will not be as consistent as if you standardize to a single term and stick with it.
+LLMs are associative by nature; they effectively encode the relationships between tokens in a domain language.
+
+If you use several different words that mean the same thing throughout your prompt, those associations will be weaker, and your results will not be as consistent as if you standardize to a single term and stick with it.
+
+Double check your prompts to make sure that they all use the same term consistently to refer to the same thing.
 
 ## Expand the user's message into a user intent statement
 
+This was a big one.
+
 Use an LLM to expand the literal text of an user's incoming message into a summary of the user's intent. Then, use this intent statement instead of (or in addition to) the literal message for your routing and content matching (RAG), and inject it into your final prompt at the very end.
 
-I find that this significantly improves:
+I found that this significantly improved:
 * Router accuracy (selecting the right prompt to use).
 * Content matching.
 * The response from the final model call.
@@ -97,21 +109,27 @@ User: no lettuce
 Chatbot: Of course, here's a recipe without lettuce... $TACO_RECIPE_MINUS_LETTUCE
 ```
 
-## Increase temperature to increase compliance with instructions
+## Increase temperature to improve compliance with instructions
 
-Paradoxically, I've found that compliance with a list of instructions *increases* when temperature increases. It's as if your model parameters can paint the model into a corner sometimes, where it doesn't have enough available options to generate output that follows your instructions.
+Paradoxically, I've found that compliance with a list of instructions *increases* when temperature increases.
 
-If your model isn't behaving, try bumping up the temperature.
+It's as if your model parameters can sometimes paint the model into a corner, where it doesn't have enough available options to generate output that follows your instructions.
+
+If your model isn't behaving, try bumping up the temperature. Give it a wider lane, and then trust it to generally stay in the middle.
 
 ## Suppress outbound links with prompt instructions + a route that handles requests for them
 
 One of our product requirements was that the chatbot not serve any outbound links. Not only are these prone to hallucination, but we also have controls on which sources are approved for medical/health information for our users.
 
-Outside of constitutional AI (placing a final call to evaluatee whether any constitutional principles have been violated, then revising the output), the next best way to handle this is to add a route to detect requests for links and resources, and handle these with something like `I'm not able to send links, but a web search should help you find what you need`, etc. Then, add a clause to prompts for your other routes like `...without sending outbound links or URLs`.
+Outside of constitutional AI (placing a final call to evaluate whether any constitutional principles have been violated, then revising the output), the next best way to handle this is to add a route to detect requests for links and resources, and handle these with something like `I'm not able to send links, but a web search should help you find what you need`, etc. Then, add a clause to prompts for your other routes like `...without sending outbound links or URLs`.
 
 ## Use the prompt to get multi-language  support/localization for free
 
-We track our user's preferred language. Since LLMs are associative by nature, they are also (un)surprisingly good at translation. I found that adding a line `Respond in the user's preferred language, or English if not set` effectively gets you localization for free. Is it perfect? Maybe not, but I'll leave that to the translators to assess.
+We track our user's preferred language. Since LLMs are associative by nature, they are also (un)surprisingly good at translation.
+
+I found that adding a line `Respond in the user's preferred language, or English if not set` effectively gets you localization for free.
+
+Is it perfect? Maybe not, but I'll leave that to the translators to assess. It's pretty good considering that it costs nearly no additional work.
 
 ## Validate unsupported characters as soon as you get the user's message
 
