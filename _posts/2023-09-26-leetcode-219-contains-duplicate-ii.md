@@ -29,7 +29,7 @@ Constraints:
 
 ## Discussion
 
-We're looking for numerically identical elements in a list, but we have an additional criterium for the relationship of their indices if we find a match: that the absolute value of index 1 minus index 2 be less than or equal to some limit `k`.
+We're looking for numerically identical elements in a list, but we have an additional criterion for the relationship of their indices if we find a match: that the absolute value of index 1 minus index 2 be less than or equal to some limit `k`.
 
 What happens to this absolute value as we iterate through a list of length 3?
 
