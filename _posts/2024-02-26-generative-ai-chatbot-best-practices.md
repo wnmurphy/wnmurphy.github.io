@@ -178,3 +178,21 @@ If you're not evaluating, you're navigating by feel alone. Because generative AI
 At a minimum, I recommend evaluations for router precision and recall (combined into f-score), RAG answer (summary) relevance, RAG content (matching chunks) relevance.
 
 If you haven't created evals yet, you basically need to create a synthetic data set, label it with the expected attributes (routes), run your component (router, etc.) then evaluate actual results against the expected label.
+
+## Make your user aware of the features
+
+We found out from early rollout surveys that most of our users weren't even aware that we'd given them a chatbot assistant.
+
+This might be obvious, but if the user doesn't know they have a chatbot, they won't use it.
+
+## Understand who your user is and how they feel
+
+Most of your users are not going to be techies who think gen AI is fascinating. Many of them find AI of any kind scary and weird, and probably have an aversion to it before they even come to your feature. Make sure you keep this in mind when choosing a name/persona.
+
+For people to trust AI, it needs to be personable and welcoming.
+
+## Understand how your user actually uses the feature
+
+Most of your users are not going to send eloquent messages. They will treat your chatbot like an AT&T or Comcast voicemail menu, using one-word commands or phrases like "operator" or "billing."
+
+To handle this effectively, use the intent expansion technique listed above.
