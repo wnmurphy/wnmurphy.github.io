@@ -1,6 +1,6 @@
 ---
 title: Tesla's FSD v12 Information from Tesla Engineers
-date: 2024-03-31T08:55:22-08:00
+date: 2024-03-31T08:55:22-07:00
 layout: single
 permalink: /tesla-fsd-v12-info-from-tesla-engineers
 category: 'technology'
