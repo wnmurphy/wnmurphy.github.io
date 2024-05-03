@@ -9,17 +9,25 @@ tags: ['langchain', 'chatbot', 'llm', 'best practices']
 
 Over the last year, each of us in the industry has been learning how to integrate generative AI together, mostly exploring and figuring things out as we've gone along.
 
-This is a collection of lessons I've learned from rapid iteration and experimentation in developing a chatbot healthcare assistant.
-
-## Use a router that selects the right prompt/tool based on the incoming message
-
-Using a router makes your chatbot "multi-modal" in the sense of having N different modes that it can dynamically select from. This dramatically improves handling of topics by having a dedicated prompt for each topic.
+This is a collection of lessons I've learned from rapid iteration and experimentation in developing a chatbot healthcare assistant. Some of these may now be obvious in hindsight.
 
 ## If you're using langchain, use agents/tools as routes rather than LLMChains
 
 You're inevitably going to want your chatbot to be able to take programmatic actions, like calling an API for another of your services. The default multi-prompt router only supports using `LLMChain` destination routes, which limit you to a single model call with a single prompt.
 
 You can probably adapt an agent/tool to an `LLMChain` interface so it can be used in the router, but I think it's simpler to adapt an `LLMChain` to an agent/tool interface. If I started over again, this is one thing I would explore doing differently.
+
+## If you're not using agents, use Chain-of-Thought (CoT)
+
+Give your model space to "reason" by printing intermediate internal thoughts.
+
+One option for this is to instruct the model write thoughts in-line surrounded by special chars like `<<<I need to use the user's personal information to customize my recommendation>>>` and then trim these thoughts out in post-processing.
+
+A better option is to have the model output JSON (most models are trained on/tuned for JSON), where intermediate thoughts are printed to a string or array of strings in a property like `myReasoning`, and then simply ignored in the downstream code in favor of the actual prediction written to an `output` property in the same object.
+
+## Use a router that selects the right prompt/tool based on the incoming message
+
+If you're not using agents, using a router makes your chatbot "multi-modal" in the sense of having N different modes that it can dynamically select from. This dramatically improves handling of topics by having a dedicated prompt for each topic.
 
 ## Make your default route a conversation model
 
