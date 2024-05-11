@@ -7,9 +7,7 @@ category: 'programming'
 tags: ['llm', 'prompts']
 ---
 
-# Chain of Density prompting technique
-
-I read a [whitepaper on this [Chain of Density prompting technique](https://arxiv.org/pdf/2309.04269) a while ago that fascinated me.
+I read a whitepaper on this [Chain of Density prompting technique](https://arxiv.org/pdf/2309.04269) a while ago that fascinated me.
 
 You can essentially use an LLM to simulate a recursive summarizing operation, where each subsequent summary is more information dense than the prior ones.
 
@@ -116,11 +114,13 @@ But the NDAG will be returning to the site this June to reopen a couple of trenc
 ]
 ```
 
-You can see how each new `Denser_Summary` enriches the prior one with the `Missing_Entites`.
+You can see how each new `Denser_Summary` enriches the prior one with the `Missing_Entities`.
 
 ## Discussion
 
 An "information space" is any place to put information, like CPU, or RAM, or a database. The issue with vanilla LLMs is that they have no place to put additional information during inference by default.
+
+Adding an information space to your output gives the model a scratch pad to write intermediate data, analogous to how we reason and plan internally in our working memory when someone asks us to complete a task.
 
 Models are typically trained on JSON data, which can also be used to represent serial iterations in the form of a JSON array, and the objects in that array can be made to store a wide variety of intermediate data..
 
