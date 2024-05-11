@@ -3,7 +3,8 @@ title: Deeper understanding from anthropomorphic perspective-taking
 date: 2024-05-09T07:19:22-08:00
 layout: single
 permalink: /deeper-understanding-from-anthropomorphic-perspective-taking/
-category: 'llm', 'learning'
+category: 'learning'
+tags: ['llm', 'chatgpt', 'learning']
 ---
 
 I was reviewing my external brain (a massive git repo containing 20+ years of my writing/snippets/thoughts I call "memory alpha"), and came across this quote from Jonas Salk:
