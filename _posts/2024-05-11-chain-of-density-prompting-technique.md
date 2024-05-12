@@ -11,7 +11,7 @@ I read a whitepaper on this [Chain of Density prompting technique](https://arxiv
 
 You can essentially use an LLM to simulate a recursive summarizing operation, where each subsequent summary is more information dense than the prior ones.
 
-The trick to this is the same as Chain of Thought techniques: you need to give the model an information space to write it's thoughts, like a scratch pad.
+The trick to this is the same as Chain of Thought techniques: you need to give the model an information space to write its thoughts, like a scratch pad.
 
 Here, a JSON array is used, where each element is an object that serves as a working memory for the operation of generating subsequent objects.
 
