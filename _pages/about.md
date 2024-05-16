@@ -18,7 +18,7 @@ title: About Me
 
 Hi. I'm Neil. I'm a senior software engineer with <script>document.write(roundedYearsProgramming)</script> years of experience, specializing in generative AI and cloud infrastructure. Currently living in the San Francisco Bay Area.
 
-![Obligatory looking-at-laptop photo](/assets/images/datface.jpg)
+![Photo](/assets/images/onsen.jpg)
 
 ## Professional Highlights
 
@@ -28,23 +28,23 @@ Hi. I'm Neil. I'm a senior software engineer with <script>document.write(rounded
 
 Pioneered Vida Health's foundational generative AI strategy and successfully transformed it into user-facing features powered by Large Language Models (LLM).
 
-Crafted a virtual healthcare assistant chatbot with advanced capabilities such as memory of prior interactions, real-time awareness of patient medical data, dynamic multi-prompt routing, and responses from proprietary healthcare and technical support content using GCP Vector Store (Matching Engine) and Retrieval-Augmented Generation (RAG).
+Crafted a virtual healthcare assistant chatbot with advanced capabilities: memory of prior interactions, user intent extraction, awareness of real-time user medical data, dynamic multi-prompt routing, injection of proprietary healthcare + tech support content using GCP Vector Store (Matching Engine) and Retrieval-Augmented Generation (RAG), and generated user smart replies.
 
 Invented "sticky routing" technique to enhance the natural flow of chatbot conversations.
 
+Lead prompt engineer. Built evaluation suite to assess groundedness/relevance of RAG results + chatbot routing precision/recall against synthetic data.
+
 Established standardized prompt management practices at Vida Health, encompassing source control, versioning, templating, and seamless integration of contextual user data from our databases and feature stores.
 
-Designed and developed healthcare provider message suggestions, enabling auto-generation of drafts for providers based on prior patient conversations.
+Designed and developed smart replies for healthcare providers, auto-generated drafts for professional correspondence based on prior patient conversations.
 
-Created an at-a-glance patient snapshot feature, summarizing patient medical data and progress for healthcare providers.
+Built an at-a-glance patient snapshot feature, summarizing medical data and progress for healthcare providers.
 
-Implemented real-time contextual awareness of aggregated user medical data across all Gen AI features through the design and implementation of a standardized injectable user snapshot component.
-
-Lead prompt engineer. Built evaluation suite to assess groundedness and relevance of RAG results + chatbot routing precision and recall. Evaluated prompt performance against synthetic data.
+Implemented real-time contextual awareness of aggregated user medical data across all gen AI features using a standardized injectable user snapshot.
 
 RLHF/explicit training. Implemented a comprehensive prediction logging system that captures predictions, prompts, and parameters as well as subsequent user feedback, comments, and any user-initiated modifications for further model/prompt tuning and evaluation.
 
-Model deployment. Wrote Jupyter notebooks for Custom Prediction Routine (CPR) containers to deploy open source models like Falcon-7B and GPT-JT to private Vertex AI endpoints for model evaluation.
+Model deployment. Wrote Jupyter notebooks for Custom Prediction Routine (CPR) containers to deploy open source models like Falcon-7B and GPT-JT to private Vertex AI endpoints for model evaluation, installing/configuring CUDA libraries for GPU inference acceleration.
 
 LangChain open-source contributor.
 
