@@ -7,9 +7,9 @@ category: 'programming'
 tags: ['technical interviews', 'algorithms', 'data structures']
 ---
 
-A *graph* is a data structure that represents a network, consisting of nodes called *vertices* (an intersection of connections), and connections between nodes called *edges*.
+A **graph** is a data structure that represents a network. A graph consists of nodes called **vertices** (an intersection of connections), and connections between nodes called **edges**.
 
-Each vertex in a graph tracks its own edges by maintaining an *adjacency list* of other connected vertices.
+Each vertex in a graph tracks its own edges by maintaining an **adjacency list** of other connected vertices.
 
 ## DFS vs. BFS
 
