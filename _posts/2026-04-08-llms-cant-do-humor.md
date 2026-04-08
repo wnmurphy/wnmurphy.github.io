@@ -7,7 +7,7 @@ category: 'programming'
 tags: ['llm', 'humor']
 ---
 
-One thing that fascinates me about llms is that they seem to be incapable of producing anything funny, or at least intentionally funny. 
+One thing that fascinates me about LLMs is that they seem to be incapable of producing anything funny, or at least intentionally funny. 
 
 I suspect that this is due to the nature of what an LLM is: a probabilistic word-chunk predicting machine, where the probability of each subsequent chunk is considered in the context of the preceding text.
 
