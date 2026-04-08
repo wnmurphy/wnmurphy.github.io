@@ -16,9 +16,11 @@ title: About Me
   const roundedYearsProgramming = yearsProgramming.toFixed(2);
 </script>
 
-Hi. I'm Neil. I'm a senior software engineer with <script>document.write(roundedYearsProgramming)</script> years of experience, specializing in generative AI and cloud infrastructure. Currently living in the San Francisco Bay Area.
+Hi. I'm Neil. I'm a lead infrastructure engineer with <script>document.write(roundedYearsProgramming)</script> years of experience, specializing in AI and cloud infrastructure. Currently living in the San Francisco Bay Area.
 
-![Photo](/assets/images/onsen.jpg)
+Sometimes I make this face:
+
+![Photo](/assets/images/hard_at_work.jpg)
 
 ## Professional Highlights
 
