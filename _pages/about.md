@@ -9,7 +9,7 @@ title: About Me
   const x = new Date();
   const currentMonth = x.getMonth() + 1;
   const currentYear = x.getYear();
-  const startDateProgramming = new Date("2016-01-01");
+  const startDateProgramming = new Date("2016-04-01");
   const startYearProgramming = startDateProgramming.getYear();
   const monthsProgramming = (((currentYear - startYearProgramming) * 12) - (12 - currentMonth));
   const yearsProgramming = monthsProgramming / 12;
