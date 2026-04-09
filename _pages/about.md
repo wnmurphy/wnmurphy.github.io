@@ -6,19 +6,19 @@ title: About Me
 ---
 
 <script>
-  const x = new Date();
-  const currentMonth = x.getMonth() + 1;
-  const currentYear = x.getYear();
-  const startDateProgramming = new Date("2016-01-01");
-  const startYearProgramming = startDateProgramming.getYear();
-  const monthsProgramming = (((currentYear - startYearProgramming) * 12) - (12 - currentMonth));
-  const yearsProgramming = monthsProgramming / 12;
-  const roundedYearsProgramming = yearsProgramming.toFixed(2);
-  const startDateAiExperience = new Date("2022-09-01");
-  const startYearAiExperience = startDateAiExperience.getYear();
-  const monthsAiExperience = (((currentYear - startYearAiExperience) * 12) - (12 - currentMonth));
-  const yearsAiExperience = monthsAiExperience / 12;
-  const roundedYearsAiExperience = yearsAiExperience.toFixed(2);  
+const now = new Date();
+
+function getDecimalYears(startDateString) {
+  const start = new Date(startDateString);
+  // Calculate difference in milliseconds
+  const diffInMs = now - start;
+  // Convert ms to years (ms / msInSecond / secInMin / minInHour / hoursInDay / daysInYear)
+  const years = diffInMs / (1000 * 60 * 60 * 24 * 365.25); 
+  return years.toFixed(2);
+}
+
+const roundedYearsProgramming = getDecimalYears("2016-01-01");
+const roundedYearsAiExperience = getDecimalYears("2022-09-01");
 </script>
 
 Hi. I'm Neil. I'm a lead infrastructure engineer with <script>document.write(roundedYearsProgramming)</script> years of experience, with <script>document.write(roundedYearsAiExperience)</script> years of specialization in building AI features. Currently living in the San Francisco Bay Area.
