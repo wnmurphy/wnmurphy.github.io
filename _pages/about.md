@@ -9,16 +9,21 @@ title: About Me
   const x = new Date();
   const currentMonth = x.getMonth() + 1;
   const currentYear = x.getYear();
-  const startDate = new Date("2016-01-01");
-  const startYear = startDate.getYear();
-  const monthsProgramming = (((currentYear - startYear) * 12) - (12 - currentMonth));
+  const startDateProgramming = new Date("2016-01-01");
+  const startYearProgramming = startDateProgramming.getYear();
+  const monthsProgramming = (((currentYear - startYearProgramming) * 12) - (12 - currentMonth));
   const yearsProgramming = monthsProgramming / 12;
   const roundedYearsProgramming = yearsProgramming.toFixed(2);
+  const startDateAiExperience = new Date("2023-01-01");
+  const startYearAiExperience = startDateAiExperience.getYear();
+  const monthsAiExperience = (((currentYear - startYearAiExperience) * 12) - (12 - currentMonth));
+  const yearsAiExperience = monthsAiExperience / 12;
+  const roundedYearsAiExperience = yearsAiExperience.toFixed(2);  
 </script>
 
-Hi. I'm Neil. I'm a lead infrastructure engineer with <script>document.write(roundedYearsProgramming)</script> years of experience, specializing in AI and cloud infrastructure. Currently living in the San Francisco Bay Area.
+Hi. I'm Neil. I'm a lead infrastructure engineer with <script>document.write(roundedYearsProgramming)</script> years of experience, with <script>document.write(roundedYearsAiExperience)</script> years of specialization in building AI features. Currently living in the San Francisco Bay Area.
 
-Sometimes I make this face:
+Sometimes this is my debugging face:
 
 ![Photo](/assets/images/hard_at_work.jpg)
 
@@ -26,7 +31,19 @@ Sometimes I make this face:
 
 ### <i class="fas fa-heartbeat"></i> [Vida Health](https://www.vida.com/)
 
-#### Generative AI
+#### AI and automation
+
+Enabled teams to automated their own workflows, including labor-intensive customer launch-related activities by standing up a self-hosted instance of the n8n automation framework as an infrastructure component.
+
+Enabled instantaneous access to internal information across all domains via RAG by standing up Vida Answers, a self-hosted instance of Onyx RAG search. Reduced onboarding time for new devs while reducing the context-switching burden for experienced devs of answering questions. Created org-specific Slack channels for teams (Sales,  Product, Clinical) to answer domain questions, etc.
+
+Generated complete documentation in Confluence for each of our microservices using Google Antigravity , ingesting automatically into Vida Answers RAG search to answer targeted questions. Accelerated ramp-up period for new devs and made it easier to work in unfamiliar services by making service knowledge more accessible.
+
+Eliminated the cognitive load of troubleshooting our complex user journey by creating a User 360 feature.  Feeds clinical pathway flow charts + user data into a multimodal model to instantly summarize for staff where a user is, why, and what they need to do next. Response customized by audience persona (engineer, support, clinical).
+
+Automated the extraction of patient lab values from lab results uploaded to our document upload endpoint using GCP Document AI.
+
+Eliminated 60 hours of monthly labor cost by automating prior authorization submissions. Eliminated 120 hours of montly labor cost by designing and implementing automated referrals feature to handle provider/program change requests, etc.
 
 Pioneered Vida Health's foundational generative AI strategy and successfully transformed it into user-facing features powered by Large Language Models (LLM).
 
@@ -50,7 +67,7 @@ Model deployment. Wrote Jupyter notebooks for Custom Prediction Routine (CPR) co
 
 LangChain open-source contributor.
 
-#### Infrastructure
+#### General infrastructure
 
 SRE on-call 24/7 in 2-wk rotation for platform with 40,000+ monthly active users.
 
