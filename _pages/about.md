@@ -9,12 +9,12 @@ title: About Me
   const x = new Date();
   const currentMonth = x.getMonth() + 1;
   const currentYear = x.getYear();
-  const startDateProgramming = new Date("2016-04-01");
+  const startDateProgramming = new Date("2016-01-01");
   const startYearProgramming = startDateProgramming.getYear();
   const monthsProgramming = (((currentYear - startYearProgramming) * 12) - (12 - currentMonth));
   const yearsProgramming = monthsProgramming / 12;
   const roundedYearsProgramming = yearsProgramming.toFixed(2);
-  const startDateAiExperience = new Date("2023-01-01");
+  const startDateAiExperience = new Date("2022-09-01");
   const startYearAiExperience = startDateAiExperience.getYear();
   const monthsAiExperience = (((currentYear - startYearAiExperience) * 12) - (12 - currentMonth));
   const yearsAiExperience = monthsAiExperience / 12;
