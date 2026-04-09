@@ -21,7 +21,7 @@ const roundedYearsProgramming = getDecimalYears("2016-01-01");
 const roundedYearsAiExperience = getDecimalYears("2022-09-01");
 </script>
 
-Hi. I'm Neil. I'm a lead infrastructure engineer with <script>document.write(roundedYearsProgramming)</script> years of experience, with <script>document.write(roundedYearsAiExperience)</script> years of specialization in building AI features. Currently living in the San Francisco Bay Area.
+Hi. I'm Neil. I'm a lead infrastructure engineer with <script>document.write(roundedYearsProgramming)</script> years of experience, and <script>document.write(roundedYearsAiExperience)</script> years of specialization in building AI features. Currently living in the San Francisco Bay Area.
 
 Sometimes this is my debugging face:
 
