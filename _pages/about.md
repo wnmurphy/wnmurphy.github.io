@@ -33,17 +33,19 @@ Sometimes this is my debugging face:
 
 #### AI and automation
 
-Enabled teams to automated their own workflows, including labor-intensive customer launch-related activities by standing up a self-hosted instance of the n8n automation framework as an infrastructure component.
+Enabled teams to automate their own workflows, including labor-intensive customer launch-related activities by standing up a self-hosted instance of the n8n automation framework as an infrastructure component.
 
-Enabled instantaneous access to internal information across all domains via RAG by standing up Vida Answers, a self-hosted instance of Onyx RAG search. Reduced onboarding time for new devs while reducing the context-switching burden for experienced devs of answering questions. Created org-specific Slack channels for teams (Sales,  Product, Clinical) to answer domain questions, etc.
+Enabled instantaneous access to internal information across all domains via RAG by standing up Vida Answers, a self-hosted instance of Onyx RAG search. Reduced onboarding time for new devs while reducing the context-switching burden for experienced devs of answering those questions. Created org-specific Slack channels for teams (Sales,  Product, Clinical) to answer domain questions, etc.
 
-Generated complete documentation in Confluence for each of our microservices using Google Antigravity , ingesting automatically into Vida Answers RAG search to answer targeted questions. Accelerated ramp-up period for new devs and made it easier to work in unfamiliar services by making service knowledge more accessible.
+Generated complete documentation in Confluence for each of our microservices using Google Antigravity, ingested automatically into Vida Answers RAG search for answering targeted questions about services. Accelerated ramp-up period for new devs and made it easier to work in unfamiliar services by making service knowledge more accessible.
 
-Eliminated the cognitive load of troubleshooting our complex user journey by creating a User 360 feature.  Feeds clinical pathway flow charts + user data into a multimodal model to instantly summarize for staff where a user is, why, and what they need to do next. Response customized by audience persona (engineer, support, clinical).
+Eliminated the cognitive load of troubleshooting our complex user journey by creating a User 360 feature. Feeds user data + clinical pathway flow charts into a multimodal model to instantly identify and summarize for staff where a user is stuck, why, and what they need to do next. Response customized by audience persona (engineer, support, clinical).
 
 Automated the extraction of patient lab values from lab results uploaded to our document upload endpoint using GCP Document AI.
 
-Eliminated 60 hours of monthly labor cost by automating prior authorization submissions. Eliminated 120 hours of montly labor cost by designing and implementing automated referrals feature to handle provider/program change requests, etc.
+Eliminated 60 hours of monthly labor cost by automating clinical prior authorization submissions.
+
+Eliminated 120 hours of montly labor cost by designing and implementing automated referrals feature to handle provider/program change requests, etc.
 
 Pioneered Vida Health's foundational generative AI strategy and successfully transformed it into user-facing features powered by Large Language Models (LLM).
 
