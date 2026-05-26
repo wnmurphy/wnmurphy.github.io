@@ -22,81 +22,81 @@ Presented for your... enjoyment?
 ### Arbor
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_arbor| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_arbor.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 ### Breeze
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_breeze| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_breeze.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 ### Cove
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_cove_1| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_cove_1.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_cove_2| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_cove_2.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_cove_3| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_cove_3.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 ### Ember
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_ember| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_ember.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 ### Maple
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_maple| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_maple.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 ### Sol
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_sol_1| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_sol_1.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_sol_2| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_sol_2.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_sol_3| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_sol_3.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_sol_4| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_sol_4.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 ### Spruce
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_spruce| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_spruce.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 ### Vale
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_vale| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt4_zalgo_vale.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
@@ -106,62 +106,62 @@ Presented for your... enjoyment?
 ### Arbor
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt5_zalgo_arbor| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt5_zalgo_arbor.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 ### Breeze
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt5_zalgo_breeze| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt5_zalgo_breeze.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 ### Cove
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt5_zalgo_cove| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt5_zalgo_cove.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 ### Ember
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt5_zalgo_ember| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt5_zalgo_ember.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 ### Juniper
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt5_zalgo_juniper| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt5_zalgo_juniper.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 ### Maple
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt5_zalgo_maple| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt5_zalgo_maple.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 ### Sol
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt5_zalgo_sol| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt5_zalgo_sol.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 ### Spruce
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt5_zalgo_spruce| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt5_zalgo_spruce.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
 
 ### Vale
 
 <audio controls>
-  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt5_zalgo_vale| relative_url }}" type="audio/mpeg">
+  <source src="{{ '/assets/audio/chatgpt_zalgo_glitch/gpt5_zalgo_vale.mp3' | relative_url }}" type="audio/mpeg">
   Your browser does not support the audio element.
 </audio>
