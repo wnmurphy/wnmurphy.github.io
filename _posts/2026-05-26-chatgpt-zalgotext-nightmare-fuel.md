@@ -7,7 +7,7 @@ category: 'programming'
 tags: ['llm', 'chatgpt', 'glitch']
 ---
 
-The glitch has since been patched, but for a while you could give ChatGPT custom instructions to respond only in zalgotext, and then use voice mode for some truly insane results. 
+The glitch has since been patched, but for a while you could give ChatGPT custom instructions to respond only in [zalgotext](https://en.wikipedia.org/wiki/Zalgo_text), and then use voice mode for some truly insane results. 
 
 One thing I think is interesting, is that each voice has it's own unique way of freaking out, which could include babbling, talking about nonsense, sometimes cursing, sometimes breaking into hallucinated music, etc.
 
