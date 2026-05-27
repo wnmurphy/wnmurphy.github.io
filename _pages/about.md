@@ -27,7 +27,32 @@ Sometimes this is my debugging face:
 
 ![Photo](/assets/images/hard_at_work.jpg)
 
-## Professional Highlights
+## My philosophy of software development
+
+### I am addicted to simplicity.
+
+Simplicity scales, complexity fails. Simple designs are easier to build, eaier to maintain, and easier to extend in the future.
+
+### I strive to write clean, consistent, maintainable code with no suprises.
+
+Code should not be surprising. I like to keep code [SOLID](https://github.com/ryanmcdermott/clean-code-javascript#solid) and [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself). I design for scale, avoid nested iteration and extraneous database calls, and cache all the things. I care about code quality, and set aside dedicated time for code reviews.
+
+### I strive to make life easy for whoever touches the code after me.
+
+I care about minimizing the cognitive load of context switching. Given the choice to write clever code or legible code, legible wins every time. I use intuitive variable names and write clear, useful comments. I take documentation seriously. 
+
+### I strive to add value to my team.
+
+I care about creating a non-toxic workplace and always check my ego at the door. I like to help others be successful, and am happy to spend time answering questions for stakeholders and other developers. I love mentoring and teaching.
+
+## Bonus Skills
+
+I have additional professional experience with:
+- **technical writing**. Most engineers hate writing docs. I enjoy crafting well-written documentation and understand how to convey technical concepts.
+- **training**. I enjoy explaining concepts and teaching others.
+- **customer success**. I enjoy helping other people achieve their technical goals.
+
+## Professional highlights
 
 ### <i class="fas fa-heartbeat"></i> [Vida Health](https://www.vida.com/)
 
@@ -47,7 +72,7 @@ Eliminated 60 hours of monthly labor cost by automating clinical prior authoriza
 
 Eliminated 120 hours of montly labor cost by designing and implementing automated referrals feature to handle provider/program change requests, etc.
 
-Pioneered Vida Health's foundational generative AI strategy and successfully transformed it into user-facing features powered by Large Language Models (LLM).
+Pioneered Vida Health's foundational generative AI strategy and successfully transformed it into user-facing features powered by LLMs.
 
 Crafted a virtual healthcare assistant chatbot with advanced capabilities: memory of prior interactions, user intent extraction, awareness of real-time user medical data, dynamic multi-prompt routing, injection of proprietary healthcare + tech support content using GCP Vector Store (Matching Engine) and Retrieval-Augmented Generation (RAG), and generated user smart replies.
 
@@ -140,7 +165,7 @@ Studied my tail off to get into a grueling software engineering program which ha
 Wrote electrical assembly and test procedures for 18 commercial communication satellites currently in orbit.
 
 
-## Industry Experience
+## Industry experience
 
 I've worked in these spaces:
 
@@ -152,31 +177,6 @@ I've worked in these spaces:
 - Internal tooling.
 - HIPAA compliance.
 - Aerospace.
-
-## My Philosophy of Software Development
-
-### I am addicted to simplicity.
-
-Simplicity scales, complexity fails. Simple designs are easier to build, eaier to maintain, and easier to extend in the future.
-
-### I strive to write clean, consistent, maintainable code with no suprises.
-
-Code should not be surprising. I like to keep code [SOLID](https://github.com/ryanmcdermott/clean-code-javascript#solid) and [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself). I design for scale, avoid nested iteration and extraneous database calls, and cache all the things. I care about code quality, and set aside dedicated time for code reviews.
-
-### I strive to make life easy for whoever touches the code after me.
-
-I care about minimizing the cognitive load of context switching. Given the choice to write clever code or legible code, legible wins every time. I use intuitive variable names and write clear, useful comments. I take documentation seriously. 
-
-### I strive to add value to my team.
-
-I care about creating a non-toxic workplace and always check my ego at the door. I like to help others be successful, and am happy to spend time answering questions for stakeholders and other developers.
-
-## Bonus Skills
-
-I have additional professional experience with:
-- **technical writing**. Most engineers hate writing docs. I actually enjoy crafting well-written documentation and understand how to convey technical concepts.
-- **training**. I enjoy explaining concepts and teaching others.
-- **customer success**. I enjoy helping other people achieve their technical goals.
 
 ## Miscellaneous
 
