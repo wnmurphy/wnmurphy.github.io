@@ -1,6 +1,6 @@
 ---
 title: Building a vigilance device for hypnagogia exploration 
-date: 2026-05-20T10:32:22-7:00
+date: 2026-05-30T10:32:22-7:00
 layout: single
 permalink: /building-a-vigilance-device-for-hypnagogia-exploration/
 category: 'programming'
